@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+    font-family: p;
 }
 html,body{
     height: 100%;
@@ -39,6 +40,7 @@ nav a{
 }
 section{
     /* background-color: aqua; */
+    padding: 60px 100px;
 }
 section .hero-text1{
     background-color: brown;
@@ -48,5 +50,7 @@ section .hero-text1{
     padding: 60px;
 }
 .hero-text1 h1{
-    font-size:140
+    text-transform: uppercase;
+    font-size: 200px;
+    font-weight: 900;
 }
